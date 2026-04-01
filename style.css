@@ -45,4 +45,10 @@ button:hover {
     color: var(--crema);
 }
 
+/*L'immagine non dovrebbe uscire dalla class*/
+img {
+    max-width: 100%; /* L'immagine non sarà mai più larga del suo contenitore */
+    height: auto;
+}
+
 
