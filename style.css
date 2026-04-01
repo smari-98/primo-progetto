@@ -29,6 +29,11 @@ h1, h2, h3 {
     max-width: 450px;
     box-shadow: 4px 4px 0px var(--scuro); /* Un'ombra "pop" solida invece che sfumata */
 }
+.card-img {
+    width: 100%;
+    height: 200px;   /* Forziamo un'altezza fissa */
+    object-fit: cover; /* Taglia i bordi dell'immagine per riempire il box senza distorcerla */
+}
 
 button {
     background-color: var(--oro); /* Il bottone spicca con l'oro */
@@ -47,8 +52,8 @@ button:hover {
 
 /*L'immagine non dovrebbe uscire dalla class*/
 img {
-    max-width: 100%; /* L'immagine non sarà mai più larga del suo contenitore */
-    height: auto;
+    max-width: 100%; /* "Non essere mai più larga della card che ti ospita" */
+    height: auto;    /* "Mantieni le tue proporzioni originali senza schiacciarti" */
+    display: block;  /* Toglie lo spazio vuoto fastidioso sotto l'immagine */
 }
-
 
