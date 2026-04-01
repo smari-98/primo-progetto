@@ -1,27 +1,48 @@
+:root {
+    --crema: #F1F7ED;      /* Sfondo generale */
+    --scuro: #243E36;      /* Testo principale e titoli */
+    --verde-muted: #7CA982; /* Bordi o dettagli */
+    --verde-chiaro: #E0EEC6; /* Sfondo delle Card */
+    --oro: #C2A83E;         /* Bottoni o accenti */
+}
 body {
-    background-color: #f0f8ff;
+    background-color: var(--crema);
+    color: var(--scuro);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-h2 {
-    color: darkmagenta;
+h1, h2, h3 {
+    color: var(--scuro);
 }
 
-h3 {
-    color: darkslateblue;
-}
-h1 {
-    color: darkslateblue;
-    text-align: center;
-    font-size: 2.5rem;
+.card {
+    background-color: var(--verde-chiaro); /* Usa il verde chiarissimo per i box */
+    border: 2px solid var(--verde-muted);   /* Un bordo verde più scuro */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    max-width: 450px;
+    box-shadow: 4px 4px 0px var(--scuro); /* Un'ombra "pop" solida invece che sfumata */
 }
 
-img {
+button {
+    background-color: var(--oro); /* Il bottone spicca con l'oro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
     border-radius: 8px;
-    width: 200px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    cursor: pointer;
 }
 
-p {
-    font-size: 1.1rem;
-    line-height: 1.6;
+button:hover {
+    background-color: var(--scuro); /* Cambia colore al passaggio */
+    color: var(--crema);
 }
+
+
