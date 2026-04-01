@@ -1,8 +1,15 @@
-// Selezioniamo gli elementi (come faresti con i puntatori o oggetti)
+// Selezioniamo gli elementi 
 const bottone = document.getElementById('sommaBtn');
 const output = document.getElementById('risultato');
+//FUNZIONE contaclick
+let count = 0;
 
-// Aggiungiamo un "Listener" (molto simile agli EventListener di Java Swing/AWT)
+function contaClick() {
+    count++;
+    document.getElementById("counter").innerText = count;
+}
+
+// Aggiungiamo un "Listener" 
 bottone.addEventListener('click', function() {
     // Prendiamo i valori e li convertiamo in numeri (perché di base sono stringhe)
     const n1 = parseFloat(document.getElementById('num1').value);
