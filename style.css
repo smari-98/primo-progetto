@@ -1,13 +1,13 @@
 :root {
-    --crema: #F1F7ED;      /* Sfondo generale */
-    --scuro: #243E36;      /* Testo principale e titoli */
-    --verde-muted: #7CA982; /* Bordi o dettagli */
-    --verde-chiaro: #E0EEC6; /* Sfondo delle Card */
-    --oro: #C2A83E;         /* Bottoni o accenti */
+    --mand-crema: #FFE8D4;      /* Sfondo generale */
+    --violetto-cremisi: #45062E;      /* Testo principale e titoli */
+    --prugna-reale: #7F055F; /* Bordi o dettagli */
+    --rosa-pop: #E5A4CB; /* Sfondo delle Card */
+    --avorio: #EBD2BE;         /* Bottoni o accenti */
 }
 body {
-    background-color: var(--crema);
-    color: var(--scuro);
+    background-color: var(--mand-crema);
+    color: var(--violetto-cremisi);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
@@ -17,17 +17,17 @@ body {
 }
 
 h1, h2, h3 {
-    color: var(--scuro);
+    color: var(--violetto-cremisi);
 }
 
 .card {
-    background-color: var(--verde-chiaro); /* Usa il verde chiarissimo per i box */
-    border: 2px solid var(--verde-muted);   /* Un bordo verde più scuro */
+    background-color: var(--rosa-pop); /* Usa il verde chiarissimo per i box */
+    border: 2px solid var(--prugna-reale);   /* Un bordo verde più scuro */
     border-radius: 15px;
     padding: 20px;
     margin: 15px;
     max-width: 450px;
-    box-shadow: 4px 4px 0px var(--scuro); /* Un'ombra "pop" solida invece che sfumata */
+    box-shadow: 4px 4px 0px var(--violetto-cremisi); /* Un'ombra "pop" solida invece che sfumata */
 }
 .card-img {
     width: 100%;
@@ -36,7 +36,7 @@ h1, h2, h3 {
 }
 
 button {
-    background-color: var(--oro); /* Il bottone spicca con l'oro */
+    background-color: var(--avorio); /* Il bottone spicca con l'oro */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -46,8 +46,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--scuro); /* Cambia colore al passaggio */
-    color: var(--crema);
+    background-color: var(--violetto-cremisi); /* Cambia colore al passaggio */
+    color: var(--mand-crema);
 }
 
 /*L'immagine non dovrebbe uscire dalla class*/
