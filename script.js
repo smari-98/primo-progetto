@@ -19,7 +19,14 @@ bottone.addEventListener('click', function() {
     if (!isNaN(n1) && !isNaN(n2)) {
         const somma = n1 + n2;
         output.innerText = somma; // Iniettiamo il risultato nell'HTML
+            if (somma < 0) {
+                output.style.color = "red"; // Colore di avviso
+            } else {
+                output.style.color = "var(--violetto-cremisi)"; // Torna al colore originale
+            }
     } else {
         output.innerText = "Inserisci numeri validi!";
     }
 });
+
+console.log("Ciao dal codice!");
