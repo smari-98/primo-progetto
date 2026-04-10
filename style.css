@@ -1,16 +1,16 @@
 :root {
-    --mand-crema: #FFE8D4;      /* Sfondo generale */
-    --violetto-cremisi: #45062E;      /* Testo principale e titoli */
-    --prugna-reale: #7F055F; /* Bordi o dettagli */
-    --rosa-pop: #E5A4CB; /* Sfondo delle Card */
-    --avorio: #EBD2BE;         /* Bottoni o accenti */
+    --rosino: #F1C8DB;      /* Sfondo generale */
+    --malva: #704C5E;      /* Testo principale e titoli */
+    --verde: #558B6E; /* Bordi o dettagli */
+    --rosa-antico: #B88C9E; /* Sfondo delle Card */
+    --acc-freddo: #88A09E;         /* Bottoni o accenti */
     
-    --gold-text: #D4AF37;       /* Oro per testi su sfondi scuri */
-    --gold-scuro: #B8860B;     /* Oro scuro per sfondi chiari */
+    --gold-text: #D9C5B2;       /* Oro per testi su sfondi scuri */
+    --gold-scuro: #A68A64;     /* Oro scuro per sfondi chiari */
 }
 body {
-    background-color: var(--mand-crema);
-    color: var(--violetto-cremisi);
+    background-color: var(--rosino);
+    color: var(--malva);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
@@ -20,17 +20,17 @@ body {
 }
 
 h1, h2, h3 {
-    color: var(--violetto-cremisi);
+    color: var(--malva);
 }
 
 .card {
-    background-color: var(--rosa-pop); /* Usa il rosa pop per i box */
-    border: 2px solid var(--prugna-reale);   /* Un viola più scuro */
+    background-color: var(--rosa-antico); /* Usa il rosa pop per i box */
+    border: 2px solid var(--verde);   /* Un viola più scuro */
     border-radius: 15px;
     padding: 20px;
     margin: 15px;
     max-width: 450px;
-    box-shadow: 4px 4px 0px var(--violetto-cremisi); /* Un'ombra "pop" solida invece che sfumata */
+    box-shadow: 4px 4px 0px var(--malva); /* Un'ombra "pop" solida invece che sfumata */
 }
 .card-img {
     width: 100%;
@@ -39,7 +39,7 @@ h1, h2, h3 {
 }
 
 button {
-    background-color: var(--avorio); /* Il bottone spicca con l'oro */
+    background-color: var(--acc-freddo); /* Il bottone spicca con l'oro */
     color: var(--gold-scuro); 
     border: none;
     padding: 10px 20px;
@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--violetto-cremisi); /* Cambia colore al passaggio */
+    background-color: var(--malva); /* Cambia colore al passaggio */
     color: var(--gold-text);
     transform: scale(1.15); /* Effetto zoom al passaggio */
 }
