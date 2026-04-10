@@ -24,7 +24,7 @@ h1, h2, h3 {
 }
 
 .card {
-    background-color: var(--rosa-antico); /* Usa il rosa pop per i box */
+    background-color: var(--acc-freddo); /* Usa il rosa pop per i box */
     border: 2px solid var(--verde);   /* Un viola più scuro */
     border-radius: 15px;
     padding: 20px;
@@ -39,7 +39,7 @@ h1, h2, h3 {
 }
 
 button {
-    background-color: var(--acc-freddo); /* Il bottone spicca con l'oro */
+    background-color: var(--rosa-antico); /* Il bottone spicca con l'oro */
     color: var(--gold-scuro); 
     border: none;
     padding: 10px 20px;
