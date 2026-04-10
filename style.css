@@ -1,16 +1,16 @@
 :root {
-    --rosino: #F1C8DB;      /* Sfondo generale */
-    --malva: #704C5E;      /* Testo principale e titoli */
-    --verde: #558B6E; /* Bordi o dettagli */
-    --rosa-antico: #B88C9E; /* Sfondo delle Card */
-    --acc-freddo: #88A09E;         /* Bottoni o accenti */
+    --rosa-pol: #D6BDCC;      /* Sfondo generale */
+    --viola: #230C33;      /* Testo principale e titoli */
+    --verde-scuro: #093A3E; /* Bordi o dettagli */
+    --malva: #AD7A99;   /* Bottoni o accenti */
+    --verde-freddo: #476C6F;         /* Sfondo delle Card */
     
-    --gold-text: #D9C5B2;       /* Oro per testi su sfondi scuri */
-    --gold-scuro: #A68A64;     /* Oro scuro per sfondi chiari */
+    --silver-s: #C0C0C0;       /* Argento per testi su sfondi scuri */
+    --gold-s: #A68A64;     /* Oro scuro per sfondi chiari */
 }
 body {
-    background-color: var(--rosino);
-    color: var(--malva);
+    background-color: var(--rosa-polv);
+    color: var(--viola);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
@@ -20,12 +20,12 @@ body {
 }
 
 h1, h2, h3 {
-    color: var(--malva);
+    color: var(--viola);
 }
 
 .card {
-    background-color: var(--acc-freddo); /* Usa il rosa pop per i box */
-    border: 2px solid var(--verde);   /* Un viola più scuro */
+    background-color: var(--verde-freddo); /* Usa il verde freddo per i box */
+    border: 2px solid var(--verde-scuro);   /* Un verde più scuro */
     border-radius: 15px;
     padding: 20px;
     margin: 15px;
@@ -39,8 +39,8 @@ h1, h2, h3 {
 }
 
 button {
-    background-color: var(--rosa-antico); /* Il bottone spicca con l'oro */
-    color: var(--gold-scuro); 
+    background-color: var(--verde-scuro); /* Il bottone spicca con l'oro */
+    color: var(--silver-s); 
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
@@ -49,9 +49,9 @@ button {
 }
 
 button:hover {
-    background-color: var(--malva); /* Cambia colore al passaggio */
-    color: var(--gold-text);
-    transform: scale(1.15); /* Effetto zoom al passaggio */
+    background-color: var(--viola); /* Cambia colore al passaggio */
+    color: var(--silver-s);
+    transform: scale(1.10); /* Effetto zoom al passaggio */
 }
 
 /*L'immagine non dovrebbe uscire dalla class*/
