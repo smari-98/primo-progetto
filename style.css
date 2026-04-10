@@ -9,7 +9,7 @@
     --gold-s: #A68A64;     /* Oro scuro per sfondi chiari */
 }
 body {
-    background-color: var(--rosa-polv);
+    background-color: var(--rosa-pol);
     color: var(--viola);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
