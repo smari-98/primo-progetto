@@ -39,8 +39,8 @@ h1, h2, h3 {
 }
 
 button {
-    background-color: var(--violetto-cremisi); /* Il bottone spicca con l'oro */
-    color: var(--gold-text); 
+    background-color: var(--avorio); /* Il bottone spicca con l'oro */
+    color: var(--gold-scuro); 
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
@@ -49,9 +49,9 @@ button {
 }
 
 button:hover {
-    background-color: var(--mand-crema); /* Cambia colore al passaggio */
-    color: var(--gold-scuro);
-    transform: scale(1.05); /* Effetto zoom al passaggio */
+    background-color: var(--violetto-cremisi); /* Cambia colore al passaggio */
+    color: var(--gold-text);
+    transform: scale(1.15); /* Effetto zoom al passaggio */
 }
 
 /*L'immagine non dovrebbe uscire dalla class*/
